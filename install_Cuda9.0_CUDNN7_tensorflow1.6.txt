@@ -1,0 +1,65 @@
+  646  sudo /usr/local/cuda-8.0/bin/uninstall_cuda_8.0.pl 
+  647  sudo rm -r /usr/local/cuda-8.0/
+  648  spci | grep -i nvidia
+  649  update-pciids
+  650  uname -m && cat /etc/*release
+  651  sudo gedit /etc/modprobe.d/blacklist-nouveau.conf
+  652  sudo update-initramfs -u
+  653  sudo reboot now
+  654  sudo gedit /etc/modprobe.d/blacklist-nouveau.conf
+  655  sudo update-initramfs -u
+  656  sudo service  lightdm stop
+  657  sudo init 3
+  658  cd Downloads/
+  659  ls
+  660  cd cudatookit9.0/
+  661  ls
+  662  chmod +x ./cuda_9.0.176_384.81_linux.run 
+  663  sudo ./cuda_9.0.176_384.81_linux.run 
+  664  sudo gedit /tmp/cuda_install_11384.log 
+  665  sudo ./cuda_9.0.176_384.81_linux.run 
+  666  sudo reboot now
+  667  sudo gedit ~/.bashrc
+  668  nvidia-smi
+  669  nvcc -V
+  670  cd /etc/modprobe.d
+  671  ld
+  672  ls
+  673  sudo rm -r blacklist-nouveau.conf 
+  674  ls
+  675  cd
+  676  sudo update-initramfs -u
+  677  nvidia-smi
+  678  sudo add-apt-repository ppa:graphics-drivers/ppa
+  679  sudo apt-get update
+  680  sudo apt-get install nvidia-387
+  681  nvidia-smi
+  682  reboot now
+  683  sudo reboot now
+  684  nvidia-smi
+  685  nvcc -V
+  686  cd Downloads/cuDNN7-cuda9.0/
+  687  ls
+  688  sudo dpkg -i libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb 
+  689  sudo dpkg -i libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb 
+  690  sudo dpkg -i libcudnn7-doc_7.0.5.15-1+cuda9.0_amd64.deb 
+  691  cd
+  692  cd $HOME/cudnn_samples_v7/mnistCUDNN
+  693  make clean && make
+  694  ./mnistCUDNN 
+  695  cd
+  696  sudo apt-get install cuda-command-line-tools
+  697  sudo gedit ~/.bashrc
+  698  udo apt-get install cuda-command-line-tools
+  699  sudo apt-get install cuda-command-line-tool
+  700  sudo apt-get install cuda-command-line-tool-9-0
+  701  sudo apt-get install cuda-command-line-tools-9-0
+  702  sudo apt-get install cuda-command-line-tools-9.0
+  703  python
+  704  sudo pip uninstall tensorflow-gpu
+  705  python
+  706  pip install tensorflow-gpu
+  707  sudo pip install tensorflow-gpu
+  708  python
+  709  history
+  710  history > install_Cuda9.0_CUDNN7_tensorflow1.6.txt
