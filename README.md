@@ -1,1 +1,1 @@
-# textz
+# history of instalation CUDA
